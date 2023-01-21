@@ -1,29 +1,28 @@
-# TwitchStreamRecord
-Twtich live stream recorder.
-This is a PyQt5 based application to download video streams using StreamLink. The user can input a URL and the application will download the video stream in 720p quality. The application also shows the progress of the download, the download speed and the status of the download on the statusbar.
 
-Features
-Download video streams in best quality
-Show the download speed
-Show the status of the download on the statusbar
+# Twitch live stream downloader
 
-Usage
-Clone or download the repository
-Install the required packages using pip: pip install -r requirements.txt
-Run the application using python streamdownloader.py
-Enter the URL of the video stream in the input field
-Click on the download button to start the download
-The progress, speed and status of the download will be displayed on the statusbar
-Screenshots
-Screenshot 1
-Screenshot 2
+A PyQt5 based application for downloading video streams using Streamlink.
 
-Contributions
-Feel free to submit pull requests and report any issues you may find.
+## Features
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+- Download video streams in best quality
+- Display download speed in Mbit/s
+- Display download status on statusbar
+- Cancel download feature
+- Logging feature
 
-Acknowledgments
-StreamLink for providing the stream downloading functionality
-PyQt5 for providing the GUI functionality
+## Installation
+
+Install Python 3 and PyQt5 using the following command:
+
+```bash
+pip install pyqt5
+```
+Install Streamlink using the following command:
+```bash
+pip install streamlink
+```
+## Screenshots
+
+![App Screenshot](https://i.ibb.co/0ZjFsVQ/Screenshot-26.png)
+
